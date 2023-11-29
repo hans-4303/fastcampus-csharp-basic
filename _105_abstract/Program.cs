@@ -64,12 +64,16 @@ namespace _105_abstract
         {
             base.VirtualPrint();
 
-            Console.Write("this method can override in this class, but not compulsory.");
+            Console.WriteLine("this method can override in this class, but not compulsory.");
         }
     }
 
     /// <summary>
-    /// 
+    /// <para>실체 클래스와 추상 클래스 활용</para>
+    /// <para>
+    ///     추상 클래스 상속받은 실체 클래스로 인스턴스 만들고 메서드 호출 가능
+    ///     실체 클래스로 인스턴스 만들되, 타입이 추상 클래스라 선언하는 것도 가능
+    /// </para>
     /// </summary>
     internal class Program
     {
@@ -78,8 +82,11 @@ namespace _105_abstract
             AA aa = new AA(10);
             aa.AbstractPrint();
             aa.VirtualPrint();
+            aa.Print();
 
             AbstractAA aaDash1 = new AA(20); // 가능: 추상 클래스 타입을 갖는다 선언할 수는 있다.
+            aaDash1.AbstractPrint();
+            aaDash1.Print();
             // AbstractAA aaDash2 = new AbstractAA(20); // 불가능: 추상 클래스는 인스턴스화 할 수 없다.
         }
     }
