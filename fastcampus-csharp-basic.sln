@@ -203,6 +203,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_117_Check", "_117_Check\_1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_118_Check", "_118_Check\_118_Check.csproj", "{5478FCD3-7311-4EA6-AEF2-C5ADE774DF09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_119_GenericFunc", "_119_GenericFunc\_119_GenericFunc.csproj", "{A551D0FC-89C5-407F-8689-FF15D319C44E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -609,6 +611,10 @@ Global
 		{5478FCD3-7311-4EA6-AEF2-C5ADE774DF09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5478FCD3-7311-4EA6-AEF2-C5ADE774DF09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5478FCD3-7311-4EA6-AEF2-C5ADE774DF09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A551D0FC-89C5-407F-8689-FF15D319C44E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A551D0FC-89C5-407F-8689-FF15D319C44E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A551D0FC-89C5-407F-8689-FF15D319C44E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A551D0FC-89C5-407F-8689-FF15D319C44E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -59,8 +59,8 @@ namespace _118_Check
         ///     스코프 바깥 Hashtable에 키와 인스턴스를 대입함.
         /// </para>
         /// <para>
-        ///     saveNumbersTable[0] = CSaveNumber(a, b, methods)
-        ///     saveNumbersTable[1] = CSaveNumber(a, b, methods)
+        ///     saveNumbersTable[0 == key] = CSaveNumber(a, b, methods)
+        ///     saveNumbersTable[1 == key] = CSaveNumber(a, b, methods)
         ///     과 같이 누적됨.
         /// </para>
         /// <para>
