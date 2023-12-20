@@ -67,6 +67,7 @@ namespace _118_Check
         ///     CheckEnd 메서드의 인수는 Hashtable의 Count가 되어 크게 의미는 없음,
         ///     foreach문 안에서 Hashtable의 Keys를 순회하면서
         ///     각 인스턴스를 받아오고 캐스팅 -> 메서드를 사용해줌
+        ///     * 캐스팅 과정이 들어가야 클래스와 메서드를 인지할 수 있는 걸로 보임.
         /// </para>
         /// </summary>
         private static void Main (/* string[] args */)
