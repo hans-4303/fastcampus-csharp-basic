@@ -189,6 +189,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_110_check2", "_110_check2\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_111_ArrayList", "_111_ArrayList\_111_ArrayList.csproj", "{61426AE2-6F21-4F69-BF32-400C51E538BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_112_Queue", "_112_Queue\_112_Queue.csproj", "{012C1E6B-AE26-4DFD-ADF7-289B7B1DDD12}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -567,6 +569,10 @@ Global
 		{61426AE2-6F21-4F69-BF32-400C51E538BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61426AE2-6F21-4F69-BF32-400C51E538BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61426AE2-6F21-4F69-BF32-400C51E538BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{012C1E6B-AE26-4DFD-ADF7-289B7B1DDD12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{012C1E6B-AE26-4DFD-ADF7-289B7B1DDD12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{012C1E6B-AE26-4DFD-ADF7-289B7B1DDD12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{012C1E6B-AE26-4DFD-ADF7-289B7B1DDD12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
