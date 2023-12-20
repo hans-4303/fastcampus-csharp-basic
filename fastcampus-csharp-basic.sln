@@ -191,6 +191,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_111_ArrayList", "_111_Arra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_112_Queue", "_112_Queue\_112_Queue.csproj", "{012C1E6B-AE26-4DFD-ADF7-289B7B1DDD12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_113_Stack", "_113_Stack\_113_Stack.csproj", "{5D28E0F6-F83C-479A-9F5A-69725537C11F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -573,6 +575,10 @@ Global
 		{012C1E6B-AE26-4DFD-ADF7-289B7B1DDD12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{012C1E6B-AE26-4DFD-ADF7-289B7B1DDD12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{012C1E6B-AE26-4DFD-ADF7-289B7B1DDD12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D28E0F6-F83C-479A-9F5A-69725537C11F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D28E0F6-F83C-479A-9F5A-69725537C11F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D28E0F6-F83C-479A-9F5A-69725537C11F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D28E0F6-F83C-479A-9F5A-69725537C11F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

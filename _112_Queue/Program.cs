@@ -33,6 +33,11 @@ namespace _112_Queue
         ///     queue에 입력된 데이터를 제거하는 메서드임,
         ///     가장 먼저 입력된 데이터가 가장 먼저 제거됨.
         /// </para>
+        /// <para>
+        ///     Quque.Peek();
+        ///     queue의 시작 부분에서 개체를 제거하지 않고 반환해줌.
+        ///     반환 타입은 object이기 때문에 박싱 언박싱은 따르지만 유연성 보장.
+        /// </para>
         /// <para>4. Queue 클래스 Prop</para>
         /// <para>
         ///     Queue.Count;
@@ -60,6 +65,8 @@ namespace _112_Queue
             queue.Enqueue("c");
 
             for (int i = 0; i < 10; i++) { queue.Enqueue(i); }
+
+            Console.WriteLine(queue.Peek());
 
             while (queue.Count > 0)
             {
