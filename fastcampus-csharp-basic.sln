@@ -193,6 +193,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_112_Queue", "_112_Queue\_1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_113_Stack", "_113_Stack\_113_Stack.csproj", "{5D28E0F6-F83C-479A-9F5A-69725537C11F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_114_Hashtable", "_114_Hashtable\_114_Hashtable.csproj", "{BEE0BD79-FAE5-455E-9DDE-B017B0677CFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -579,6 +581,10 @@ Global
 		{5D28E0F6-F83C-479A-9F5A-69725537C11F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D28E0F6-F83C-479A-9F5A-69725537C11F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D28E0F6-F83C-479A-9F5A-69725537C11F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEE0BD79-FAE5-455E-9DDE-B017B0677CFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE0BD79-FAE5-455E-9DDE-B017B0677CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE0BD79-FAE5-455E-9DDE-B017B0677CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE0BD79-FAE5-455E-9DDE-B017B0677CFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
