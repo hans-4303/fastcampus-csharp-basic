@@ -71,6 +71,7 @@ namespace _133_delegateDeclare
                 Console.WriteLine("a - b: " + ( a - b ));
             };
 
+            // 위 로직을 통해서 익명 함수를 참조하도록 바뀜
             dt(2, 1);
         }
     }
