@@ -239,6 +239,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_135_communicationClassWith
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_136_delegateParam", "_136_delegateParam\_136_delegateParam.csproj", "{FA9B1369-EE48-4E03-A3AC-EC8F984F1FA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_137_delegateCheckNull", "_137_delegateCheckNull\_137_delegateCheckNull.csproj", "{B656E18D-A7BD-4A45-89E5-C1BD959ECFF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -717,6 +719,10 @@ Global
 		{FA9B1369-EE48-4E03-A3AC-EC8F984F1FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA9B1369-EE48-4E03-A3AC-EC8F984F1FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA9B1369-EE48-4E03-A3AC-EC8F984F1FA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B656E18D-A7BD-4A45-89E5-C1BD959ECFF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B656E18D-A7BD-4A45-89E5-C1BD959ECFF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B656E18D-A7BD-4A45-89E5-C1BD959ECFF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B656E18D-A7BD-4A45-89E5-C1BD959ECFF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

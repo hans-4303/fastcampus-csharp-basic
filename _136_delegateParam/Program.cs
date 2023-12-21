@@ -27,6 +27,16 @@ namespace _136_delegateParam
     ///     파라미터로 전달받은 문자열을 띄우고 입력을 기다림,
     ///     조건에 따라 필드에 있는 멤버 대리자를 호출해줌.
     /// </para>
+    /// <para>3. 디폴트 파라미터와 멤버 delegate 확인</para>
+    /// <para>
+    ///     메서드의 디폴트 파라미터로 null을 대입했고
+    ///     무조건 멤버 delegate를 호출하면 런타임 에러 발생할 수 있음,
+    ///     따라서 멤버 delegate?.Invoke();를 통해 null 아닌지 확인 한 후 호출하도록 함
+    /// </para>
+    /// <para>
+    ///     ?.Invoke를 사용하면 호출할 메서드가 null일 경우 호출하지 않고 무시되어서
+    ///     null 때문에 예외 처리할 필요는 없음
+    /// </para>
     /// </summary>
     internal class MessageProcess
     {
