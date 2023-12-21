@@ -33,7 +33,7 @@ namespace _136_delegateParam
         delegateFunc CallOkFunc;
         delegateFunc CallCancelFunc;
 
-        public void Message (string msg, delegateFunc okFunc, delegateFunc cancelFunc)
+        public void Message (string msg, delegateFunc okFunc, delegateFunc cancelFunc = null)
         {
             CallOkFunc = okFunc;
             CallCancelFunc = cancelFunc;
@@ -44,11 +44,11 @@ namespace _136_delegateParam
 
             if (inputStr.Equals("0"))
             {
-                CallOkFunc();
+                CallOkFunc?.Invoke();
             }
             else
             {
-                CallCancelFunc();
+                CallCancelFunc?.Invoke();
             }
         }
     }
@@ -101,6 +101,9 @@ namespace _136_delegateParam
             msg4.Message("Test Message",
                 CallOK
                 , () => { Console.WriteLine("Cancel InDelegate by Lambda"); });
+
+            MessageProcess msg5 = new MessageProcess();
+            msg5.Message("Null test message", CallOK);
         }
     }
 }
