@@ -35,7 +35,8 @@ namespace _136_delegateParam
     /// </para>
     /// <para>
     ///     ?.Invoke를 사용하면 호출할 메서드가 null일 경우 호출하지 않고 무시되어서
-    ///     null 때문에 예외 처리할 필요는 없음
+    ///     null 때문에 예외 처리할 필요는 없음, 하지만 함수 과정이나 결과 자체가 예외를 만든다면
+    ///     try - catch 사용도 생각해볼 것
     /// </para>
     /// </summary>
     internal class MessageProcess
@@ -54,11 +55,25 @@ namespace _136_delegateParam
 
             if (inputStr.Equals("0"))
             {
-                CallOkFunc?.Invoke();
+                try
+                {
+                    CallOkFunc?.Invoke();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
             }
             else
             {
-                CallCancelFunc?.Invoke();
+                try
+                {
+                    CallCancelFunc?.Invoke();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
             }
         }
     }
@@ -114,6 +129,12 @@ namespace _136_delegateParam
 
             MessageProcess msg5 = new MessageProcess();
             msg5.Message("Null test message", CallOK);
+
+            MessageProcess msg6 = new MessageProcess();
+            msg6.Message("Null test message", () => throw new Exception("OK 부분에 새로운 예외 만들기"), CallCancel);
+
+            MessageProcess msg7 = new MessageProcess();
+            msg7.Message("Null test message", CallOK, () => throw new Exception("Cancel 부분에 새로운 예외 만들기"));
         }
     }
 }
