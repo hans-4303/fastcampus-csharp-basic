@@ -55,6 +55,8 @@ namespace _132_delegate
 
             thisFunc = Square;
             Console.WriteLine("thisFunc: " + thisFunc(10));
+
+            Console.WriteLine("레포지토리 편집");
         }
     }
 }
